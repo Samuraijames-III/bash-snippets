@@ -1,5 +1,5 @@
-# check mailbox size
-```cmd
+# Check mailbox size
+```
 Get-MailboxStatistics <username> | Select TotalItemSize
 ```
 

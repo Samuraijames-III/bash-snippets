@@ -1,3 +1,4 @@
-REM Check Mailbox addresses
-set /p "username=enter username:"
+# Check Mailbox addresses
+```
 Get-Mailbox <username> | select -exp emailaddresses | sort
+```
